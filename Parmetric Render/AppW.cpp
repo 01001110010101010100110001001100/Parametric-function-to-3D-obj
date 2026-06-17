@@ -230,9 +230,9 @@ void AppW::onCreate() {
 	//GraphicsEn::get()->init();
 	//GraphicsEn::get()->getRenderChicken()->createSwapChain();  //??
 
-	m_boob_tex = GraphicsEn::get()->getTextureKrak()->createTextureFromFile(L"C:\\Users\\manam\\Desktop\\phen_v4\\SimV4\\.vs\\Assets\\Textures\\duck.png");
-	m_wood_tex = GraphicsEn::get()->getTextureKrak()->createTextureFromFile(L"C:\\Users\\manam\\Desktop\\phen_v4\\SimV4\\.vs\\Assets\\Textures\\wood.jpg");
-	m_sky_tex = GraphicsEn::get()->getTextureKrak()->createTextureFromFile(L"C:\\Users\\manam\\Desktop\\phen_v4\\SimV4\\.vs\\Assets\\Textures\\wood.jpg");
+	m_boob_tex = GraphicsEn::get()->getTextureKrak()->createTextureFromFile(L"C:\\...\\Assets\\Textures\\duck.png"); ///!!!!! Modify the path to your local Assets file location 
+	m_wood_tex = GraphicsEn::get()->getTextureKrak()->createTextureFromFile(L"C:\\...\\Assets\\Textures\\wood.jpg");
+	m_sky_tex = GraphicsEn::get()->getTextureKrak()->createTextureFromFile(L"C:\\..\\Assets\\Textures\\wood.jpg");
 
 	m_mesh = GraphicsEn::get()->getMeshKrak()->createMeshFromFile(L"C:\\Users\\manam\\Desktop\\phen_v4\\SimV4\\.vs\\Assets\\Meshes\\suzanne.obj");
 	m_sky_mesh = GraphicsEn::get()->getMeshKrak()->createMeshFromFile(L"C:\\Users\\manam\\Desktop\\phen_v4\\SimV4\\.vs\\Assets\\Meshes\\teapot.obj");
